@@ -1,0 +1,103 @@
+.active {
+    background-color: #8b5cf6 !important;
+    color: white !important;
+  .hamburger {
+    span {
+      &:first-child {
+        transform: rotate(-45deg);
+        background-color: white !important;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+
+      }
+      &:last-child {
+        transform: rotate(45deg);
+        background-color: white !important;
+      }
+    }
+  }
+}
+
+.menuActive {
+  transition: all 3s ease;
+  right: 0 !important;
+  background-color: #8b5cf6 !important;
+  color: white !important;
+}
+
+.hoverr {
+  font-weight: 100;
+}
+.hoverr:hover {
+  font-weight: 500;
+}
+.ityped-cursor {
+  animation: blink 10s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.tran {
+  transition: all 1s ease;
+}
+.hig {
+  height: calc(100vh - 70px);
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  > * {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+  }
+}
+.pListActive{
+    background-color: rgb(220, 122, 255);
+    color:white
+}
+.flex1{
+    flex: 1 !important
+}
+.flex2{
+    flex: 2 !important
+}
+.sections{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: lightsalmon;
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    > *{
+        width: 100vw;
+        height: calc(100vh - 70px);
+        scroll-snap-align: start;
+    }
+}
