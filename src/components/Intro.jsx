@@ -17,7 +17,7 @@ const Intro = () => {
 
     return (
         
-        <div className='bg-white w-[100%] h-[100vh] flex'  id="Intro">
+        <div className='bg-white  flex'  id="Intro">
             <div className="flex1 relative">
                 <div className="w-[100%] h-[100%] mr-10 pl-12 flex flex-col justify-center ">
                     <h2 className="text-[45px] my-3">سلاملکوم</h2>
@@ -29,7 +29,7 @@ const Intro = () => {
                 </a>
             </div>
             <div className="flex2 overflow-hidden">
-                <div className="w-[900px] mt-[100px] h-[900px] bg-violet-500 rounded-full flex items-end justify-center float-left">
+                <div className="w-[900px] mt-[40px] h-[900px] bg-violet-500/80 rounded-full flex items-end justify-center float-left">
                     <img className="mb-60 h-[80%] object-contain" src="assets/sav1.png" alt="" />
                 </div>
             </div>

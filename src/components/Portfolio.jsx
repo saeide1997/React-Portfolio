@@ -40,7 +40,7 @@ const Portfolio = () => {
     },[selected])
 
     return (
-        <div  className='bg-pink-100  flex flex-col items-center' id='Portfolio'>
+        <div  className='bg-white flex flex-col items-center' id='Portfolio'>
             <h1 className='text-[40px] m-10'>نمونه کارهای انجام شده</h1>
             <ul className='mx-3 my-5 p-0 list-none flex '>
                 {list.map(item=>(

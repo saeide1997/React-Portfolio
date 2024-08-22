@@ -101,3 +101,9 @@
         scroll-snap-align: start;
     }
 }
+.featured{
+  width: 300px !important;
+  height: 75% !important;
+  margin-inline: 30px;
+}
+
