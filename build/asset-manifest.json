@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.711f7c3a.css",
+    "main.js": "/static/js/main.83be8349.js",
+    "static/media/BYekan.ttf": "/static/media/BYekan.f717454db8f70fbcd198.ttf",
+    "index.html": "/index.html",
+    "main.711f7c3a.css.map": "/static/css/main.711f7c3a.css.map",
+    "main.83be8349.js.map": "/static/js/main.83be8349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.711f7c3a.css",
+    "static/js/main.83be8349.js"
+  ]
+}
