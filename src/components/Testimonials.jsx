@@ -31,14 +31,14 @@ const Testimonials = () => {
     
       return (
         <div className="bg-white flex flex-col items-center " id="Testimonials">
-          <h1 className="text-[50px] mt-10">تیم تشکیل دهنده</h1>
-          <div className="w-[100%] h-[80%] flex items-center justify-center">
+          <h1 className="text-[50px] mt-10 max-[640px]:text-[20px]">تیم تشکیل دهنده</h1>
+          <div className="w-[100%] h-[80%] flex items-center justify-center max-[640px]:flex-col ">
             {data.map((item) => (
               <div className={"w-[250px] h-[70%] rounded-lg shadow-md flex flex-col justify-between p-5 " + (item.featured && 'featured') + ' hover:scale-110'}>
                 <div className="flex items-center justify-center">
                     <img className="h-[25px]" src={item.icon} alt="" />
                   <img
-                    className="h-[60px] w-[60px] rounded-full object-cover mx-7"
+                    className="h-[60px] w-[60px] rounded-full object-cover mx-7 max-[640px]:w-[40px]"
                     src={item.img}
                     alt=""
                   />

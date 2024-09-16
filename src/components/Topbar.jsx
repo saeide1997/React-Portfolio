@@ -33,16 +33,16 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
           </div>
         </div>
         <div className="flex items-center">
-          <div className="flex items-center ml-8">
+          <div className="flex items-center ml-8 max-[640px]:hidden">
             <span>09144839748</span>
             <PersonIcon className=" ml-2" />
           </div>
-          <div className="flex items-center ml-8">
+          <div className="flex items-center ml-8 max-[640px]:hidden">
             <span>Saeiide.tm@gmail.com</span>
             <Email className="ml-2" />
           </div>
           <a className="text-[40px] ml-7" href="#Intro">
-            SOHO
+            .SOHO
           </a>
         </div>
       </div>

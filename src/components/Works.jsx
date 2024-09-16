@@ -38,17 +38,17 @@ const Works = () => {
 
   return (
     <div className="bg-violet-600 flex items-center justify-center relative overflow-hidden" id="Works">
-      <div className="h-[400px] flex absolute left-0 tran" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
+      <div className="h-[400px] flex absolute left-0 tran max-[640px]:h-[100vh] max-[640px]:flex-col max-[640px]:justify-center" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
         {data.map((item)=>(
         <div className="w-[100vw] flex items-center justify-center">
-          <div className="w-[800px] h-[100%] bg-white rounded-2xl flex items-center justify-center">
+          <div className="w-[800px] h-[100%] bg-white rounded-2xl flex items-center justify-center max-[640px]:w-[90%] max-[640px]:h-[180px] max-[640px]:my-1">
             <div className=" h-[80%] justify-center items-center flex flex1">
-              <div className="w-[90%] h-[70%] flex flex-col justify-between">
+              <div className="w-[90%] h-[90%] flex flex-col justify-between">
                 <div className="w-[50px] h-[50px] rounded-full bg-pink-400/50 flex items-center justify-center">
                   <img className="w-6 " src="assets/mobile.png" alt="" />
                 </div>
-                <h2 className="text-[20px] m-2">{item.title}</h2>
-                <p className="text-[13px] m-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus eveniet reprehenderit maiores dicta, quasi minus enim blanditiis consectetur neque nobis dolorum repellendus illum eius, aut saepe! Blanditiis qui tempora placeat?</p>
+                <h2 className="text-[17px] m-2">{item.title}</h2>
+                <p className="text-[12px] m-2 overflow-hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus eveniet reprehenderit maiores dicta, quasi minus enim blanditiis consectetur neque nobis dolorum repellendus illum eius, aut saepe! Blanditiis qui tempora placeat?</p>
                 <span  className="text-[12px] cursor-pointer underline">project</span>
               </div>
             </div>
