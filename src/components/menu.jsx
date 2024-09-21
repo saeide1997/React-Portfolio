@@ -6,7 +6,7 @@ const menu = ({ menuOpen, setMenuOpen }) => {
             <ul className='m-0 p-0 list-none text-[25px]'>
                 <li className='mb-5 cursor-pointer hoverr' onClick={()=>setMenuOpen(false)}><a href="#Intro">معرفی من</a></li>
                 <li className='mb-5 cursor-pointer hoverr'  onClick={()=>setMenuOpen(false)}><a href="#Portfolio">نمونه کار</a></li>
-                <li className='mb-5 cursor-pointer hoverr'  onClick={()=>setMenuOpen(false)}><a href="#Works">پروژه های انجام شده</a></li>
+                <li className='mb-5 cursor-pointer hoverr'  onClick={()=>setMenuOpen(false)}><a href="#Works">پروژه های قابل اجرا</a></li>
                 <li className='mb-5 cursor-pointer hoverr'  onClick={()=>setMenuOpen(false)}><a href="#Testimonials">تیم تشکیل دهنده</a></li>
                 <li className='mb-5 cursor-pointer hoverr'  onClick={()=>setMenuOpen(false)}><a href="#Contact">تماس با من</a></li>
             </ul>

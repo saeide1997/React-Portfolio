@@ -7,27 +7,31 @@ const Works = () => {
     const data =[
         {
             id: 1,
-            title: "Content Social Media App",
+            title: "وب سایت شرکتی",
+            desc: 'در وبسایت‌های شرکتی، قالب وبسایت دارای صفحاتی برای معرفی شرکت، تاریخچه تاسیس، انواع محصولات و خدمات، بروشورها و ... طراحی می‌شود. یک وبسایت شرکتی که به خوبی طراحی شده باشد، هویت برند و ارزش شرکت را به نمایش می‌گذارد. ',
             img:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+              "https://freshdesignweb.com/wp-content/uploads/Geekfolio-Creative-Website-Template.jpg",
           },
           {
             id: 2,
-            title: "Content Rampa UI Design",
+            title: " سایت های فروشگاهی",
+            desc: 'این دسته از طراحی های وبسایت برای مشاغلی که می‌خواهند محصولات و یا خدماتشان را به صورت آنلاین بفروشند ضروری است. طراحی وب سایت فروشگاه آنلاین نقش مهمی در جذب مشتری، ایجاد تجربه کاربری مثبت و افزایش فروش دارد.',
             img:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+              "https://cdn.dribbble.com/users/8931620/screenshots/16302415/media/ecba9cb0d12b64ae96557e15edb9e382.jpg?resize=400x0",
           },
           {
             id: 3,
-            title: "Content E-commerce Web Design",
+            title: "وب سایت های نمونه کار",
+            desc: 'در این وب سایت ها سابقه کار، مهارت ها و دستاوردهای یک فرد یا شرکت گذاشته می‌شود. معمولا توسط افراد حرفه ای مانند هنرمندان، طراحان، عکاسان، نویسندگان، فریلنسرها در زمینه های مختلف، جویندگان کار، دانشجویان و سایر کسب و کارهای کوچک مورد استفاده قرار می‌گیرد. ',
             img:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+              "https://repository-images.githubusercontent.com/384091706/a1614500-e03f-11eb-986a-30f6f0d4f1cc",
           },
           {
             id: 4,
-            title: "Content Relax Mobile App",
+            title: "سایت‌های خبری و مجلات ",
+            desc: 'این وب سایت ها همانطور که از نامشان پیداست بر ارائه اخبار، مقالات و سایر اشکال محتوا تمرکز دارند.',
             img:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+              "https://www.silversurfers.com/wp-content/uploads/2016/05/bigstock-Modern-computer-media-devices-70894627.jpg",
           },
     ]
 
@@ -43,16 +47,16 @@ const Works = () => {
         <div className="w-[100vw] flex items-center justify-center">
           <div className="w-[800px] h-[100%] bg-white rounded-2xl flex items-center justify-center max-[640px]:w-[90%] max-[640px]:h-[180px] max-[640px]:my-1">
             <div className=" h-[80%] justify-center items-center flex flex1">
-              <div className="w-[90%] h-[90%] flex flex-col justify-between">
+              <div className="w-[90%] h-[90%] flex flex-col justify-around">
                 <div className="w-[50px] h-[50px] rounded-full bg-pink-400/50 flex items-center justify-center">
                   <img className="w-6 " src="assets/mobile.png" alt="" />
                 </div>
-                <h2 className="text-[17px] m-2">{item.title}</h2>
-                <p className="text-[12px] m-2 overflow-hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus eveniet reprehenderit maiores dicta, quasi minus enim blanditiis consectetur neque nobis dolorum repellendus illum eius, aut saepe! Blanditiis qui tempora placeat?</p>
-                <span  className="text-[12px] cursor-pointer underline">project</span>
+                <h2 className="text-[30px] m-2">{item.title}</h2>
+                <p className="text-[16px] m-2 overflow-hidden">{item.desc}</p>
+                
               </div>
             </div>
-            <div className="flex2 h-[100%] flex items-center justify-center overflow-hidden">
+            <div className="flex1 h-[100%] flex items-center justify-center overflow-hidden">
                 <img className="w-[400px] -rotate-12" src={item.img} alt="" />
             </div>
           </div>

@@ -29,8 +29,8 @@ const Intro = () => {
                 </a>
             </div>
             <div className="flex2 overflow-hidden">
-                <div className="w-[900px] mt-[40px] h-[900px] bg-violet-500/80 rounded-full flex items-end justify-center float-left max-[1000px]:items-start">
-                    <img className="mb-60 h-[80%] max-[1000px]:h-[60%] object-contain " src="assets/sav1.png" alt="" />
+                <div className="w-[900px] mt-[40px] h-[900px] bg-violet-500/50 rounded-full flex items-end justify-center float-left max-[1000px]:items-start">
+                    <img className=" object-contain h-full w-full " src="assets/sav1.png" alt="" />
                 </div>
             </div>
             

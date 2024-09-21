@@ -7,7 +7,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
       className={
-        "tran w-[100%] h-[70px] top-0 z-20 bg-white text-violet-950 fixed " +
+        "tran w-[100%] h-[70px] top-0 z-20 bg-white text-violet-950 fixed overflow-hidden " +
         (menuOpen && "active")
       }
     >
@@ -42,7 +42,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
             <Email className="ml-2" />
           </div>
           <a className="text-[40px] ml-7" href="#Intro">
-            .SOHO
+            .SaeidehTajmehr
           </a>
         </div>
       </div>
