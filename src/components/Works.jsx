@@ -46,13 +46,13 @@ const Works = () => {
         {data.map((item)=>(
         <div className="w-[100vw] flex items-center justify-center">
           <div className="w-[800px] h-[100%] bg-white rounded-2xl flex items-center justify-center max-[640px]:w-[90%] max-[640px]:h-[180px] max-[640px]:my-1">
-            <div className=" h-[80%] justify-center items-center flex flex1">
-              <div className="w-[90%] h-[90%] flex flex-col justify-around">
-                <div className="w-[50px] h-[50px] rounded-full bg-pink-400/50 flex items-center justify-center">
-                  <img className="w-6 " src="assets/mobile.png" alt="" />
+            <div className=" h-[80%] justify-center items-center flex flex1 max-[640px]:h-[100%]">
+              <div className="w-[90%] h-[90%] flex flex-col justify-around ">
+                <div className="w-[50px] h-[50px] rounded-full bg-pink-400/50 flex items-center justify-center max-[640px]:w-8 max-[640px]:h-8">
+                  <img className="w-6 max-[640px]:w-2" src="assets/mobile.png" alt="" />
                 </div>
-                <h2 className="text-[30px] m-2">{item.title}</h2>
-                <p className="text-[16px] m-2 overflow-hidden">{item.desc}</p>
+                <h2 className="text-[30px] max-[640px]:text-[12px] m-2">{item.title}</h2>
+                <p className="text-[16px] m-2 overflow-hidden max-[640px]:text-[8px]">{item.desc}</p>
                 
               </div>
             </div>
