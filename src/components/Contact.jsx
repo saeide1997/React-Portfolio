@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="bg-white flex items-center flex-col" id="Contact">
+        <div className="bg-white flex items-center max-[640px]:flex-col" id="Contact">
             <div className='h-[100%] flex1 overflow-hidden '>
                 <img className='h-[100%] ' src="assets/shake.svg" alt="" />
             </div>
