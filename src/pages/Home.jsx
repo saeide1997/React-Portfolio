@@ -4,9 +4,10 @@ import Intro from '../components/Intro';
 import Portfolio from '../components/Portfolio';
 import Testimonials from '../components/Testimonials';
 import Works from '../components/Works';
-import Menu from '../components/menu'
+import Menu from '../components/menu';
 import Contact from '../components/Contact';
 import '../components/style.css'
+import AbouteMe from '../components/AbouteMe';
 
 const Home = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -16,9 +17,10 @@ const Home = () => {
             <Menu menuOpen= {menuOpen} setMenuOpen = {setMenuOpen}/>
             <div className='sections'>
             <Intro/>
+            <AbouteMe/>
             <Portfolio/>
             <Works/>
-            <Testimonials/>
+            {/* <Testimonials/> */}
             <Contact/>
             </div>
         </div>
